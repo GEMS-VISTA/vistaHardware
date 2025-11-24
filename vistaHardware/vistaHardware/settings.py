@@ -72,7 +72,7 @@ CORS_ALLOWED_ORIGINS = [
 
 ASGI_APPLICATION = 'vistaHardware.asgi.application' #For ASGI handling
 
-ROOT_URLCONF = 'vistaHardware.urls'
+ROOT_URLCONF = 'vistaHardware.vistaHardware.urls'
 
 TEMPLATES = [
     {
@@ -89,7 +89,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'vistaHardware.wsgi.application'
+WSGI_APPLICATION = 'vistaHardware.vistaHardware.wsgi.application'
 
 
 # Database
